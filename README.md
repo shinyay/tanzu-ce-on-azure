@@ -94,6 +94,10 @@ Record its Application (client) ID value, which is a GUID.
 
 - [Application ID](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)
 
+Record Subscriotion ID
+
+- [Subscription ID](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+
 ## References
 
 ## Licence
