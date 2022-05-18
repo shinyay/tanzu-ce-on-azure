@@ -35,6 +35,11 @@ Download the binary
 curl -LO https://github.com/vmware-tanzu/community-edition/releases/download/v0.12.0/tce-darwin-amd64-v0.12.0.tar.gz
 ```
 
+Expand the binary
+
+```
+tar xvfz tce-darwin-amd64-v0.12.0.tar.gz
+```
 
 
 #### Uninstall the Tanzu CLI
