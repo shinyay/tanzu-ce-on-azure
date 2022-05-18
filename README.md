@@ -88,7 +88,7 @@ Regisger Application
 
 - `Azure Active Directory` > `App registrations` > `New registration`
 
-Enter a display name for the app, such as `tce`
+Enter a display name for the app, such as `shinyay-tce`
 
 ## References
 
