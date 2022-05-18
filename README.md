@@ -138,6 +138,16 @@ Add the private key to the SSH agent running on your machine
 ssh-add ~/.ssh/id_rsa
 ```
 
+### Deploy a Management Cluster to Azure ¶
+
+### Start the Installer in your Browser
+
+```shell
+tanzu management-cluster create --ui
+```
+
+![installer](https://user-images.githubusercontent.com/3072734/169016196-434da479-8702-49b6-9ee4-bcea107da8cd.png)
+
 ## References
 
 ## Licence
