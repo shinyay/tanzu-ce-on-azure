@@ -110,6 +110,14 @@ Add a Client Secret for Application
 
 - `Azure Active Directory` > `App Registrations` > `shinyay-tce` > `Certificates & secret` > `Client secrets`
 
+### Accept the Base Image License
+
+To run management cluster VMs on Microsoft Azure, accept the license for their base Kubernetes version and machine OS.
+
+```shell
+az login --service-principal --username AZURE_CLIENT_ID --password AZURE_CLIENT_SECRET --tenant AZURE_TENANT_ID
+```
+
 ## References
 
 ## Licence
