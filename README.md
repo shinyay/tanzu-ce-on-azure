@@ -71,6 +71,12 @@ Upgrade
 az upgrade
 ```
 
+Uninstall
+
+```shell
+brew uninstall azure-cli
+```
+
 ## References
 
 ## Licence
