@@ -29,6 +29,14 @@ Tanzu Community Edition is a fully-featured, easy to manage, Kubernetes platform
   - Docker Desktop for Mac; Version <= 4.2.0
   - Kubectl
 
+Download the binary
+
+```shell
+curl -LO https://github.com/vmware-tanzu/community-edition/releases/download/v0.12.0/tce-darwin-amd64-v0.12.0.tar.gz
+```
+
+
+
 #### Uninstall the Tanzu CLI
 
 For MacOS
