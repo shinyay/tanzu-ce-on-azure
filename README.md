@@ -98,6 +98,14 @@ Record Subscriotion ID
 
 - [Subscription ID](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
 
+Assign a Role
+
+- `Resource Group` > `Access Control (IAM)`
+- `Add role assignment`
+  - `Owner` role
+  - Leave Assign access to selection as `Azure AD user, group, or service principal`
+  - Selected Members `shinyay-tce`
+
 ## References
 
 ## Licence
