@@ -148,7 +148,11 @@ tanzu management-cluster create --ui
 
 ![installer](https://user-images.githubusercontent.com/3072734/169016196-434da479-8702-49b6-9ee4-bcea107da8cd.png)
 
-#### IaaS Provider
+#### Step 1: IaaS Provider
+
+#### Step 2: Management Cluster Settings
+
+#### Step 3: Metadata
 
 ## References
 
