@@ -158,6 +158,7 @@ tanzu management-cluster create --ui
 
 #### Step 5: Identity Management
 
+#### Step 6: OS Image
 
 ## References
 
