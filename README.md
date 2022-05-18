@@ -79,8 +79,16 @@ brew uninstall azure-cli
 
 ### Register Tanzu Community Edition as a Microsoft Azure Client App
 
+Confirm your Tenant ID
+
 - [Tenant ID](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview)
   - `Azure Active Directory` > `Your Azure Org` > `Properties` > `Tenant ID`
+
+Regisger Application
+
+- `Azure Active Directory` > `App registrations` > `New registration`
+
+Enter a display name for the app, such as `tce`
 
 ## References
 
