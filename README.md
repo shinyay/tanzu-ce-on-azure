@@ -21,6 +21,16 @@ Tanzu Community Edition is a fully-featured, easy to manage, Kubernetes platform
 
 ## Installation
 
+### Tanzu CLI
+
+#### Uninstall the Tanzu CLI
+
+For MacOS
+
+```shell
+~/Library/Application Support/tce/uninstall.sh
+```
+
 ## References
 
 ## Licence
