@@ -55,6 +55,12 @@ For MacOS
 ~/Library/Application Support/tce/uninstall.sh
 ```
 
+### Azure CLI
+
+```shell
+brew update && brew install azure-cli
+```
+
 ## References
 
 ## Licence
