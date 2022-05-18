@@ -156,6 +156,8 @@ tanzu management-cluster create --ui
 
 #### Step 4: Kubernetes Network
 
+##### Step 5: Identity Management
+
 ## References
 
 ## Licence
