@@ -57,8 +57,18 @@ For MacOS
 
 ### Azure CLI
 
+For MacOS
+
+Install
+
 ```shell
 brew update && brew install azure-cli
+```
+
+Upgrade
+
+```shell
+az upgrade
 ```
 
 ## References
