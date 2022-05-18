@@ -106,6 +106,10 @@ Assign a Role
   - Leave Assign access to selection as `Azure AD user, group, or service principal`
   - Selected Members `shinyay-tce`
 
+Add a Client Secret for Application
+
+- `Azure Active Directory` > `App Registrations` > `shinyay-tce` > `Certificates & secret` > `Client secrets`
+
 ## References
 
 ## Licence
