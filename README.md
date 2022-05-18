@@ -23,6 +23,12 @@ Tanzu Community Edition is a fully-featured, easy to manage, Kubernetes platform
 
 ### Tanzu CLI
 
+- Prerequisites
+  - RAM: 6 GB
+  - CPU: 2
+  - Docker Desktop for Mac; Version <= 4.2.0
+  - Kubectl
+
 #### Uninstall the Tanzu CLI
 
 For MacOS
