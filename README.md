@@ -118,6 +118,12 @@ To run management cluster VMs on Microsoft Azure, accept the license for their b
 az login --service-principal --username AZURE_CLIENT_ID --password AZURE_CLIENT_SECRET --tenant AZURE_TENANT_ID
 ```
 
+Accept the license for **Kubernetes version 1.21 and the machine OS, Ubuntu 20.04**
+
+```
+az vm image terms accept --publisher vmware-inc --offer tkg-capi --plan k8s-1dot21dot5-ubuntu-2004 --subscription AZURE_SUBSCRIPTION_ID
+```
+
 ## References
 
 ## Licence
