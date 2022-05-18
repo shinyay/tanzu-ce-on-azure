@@ -100,7 +100,7 @@ Record Subscriotion ID
 
 Assign a Role
 
-- `Resource Group` > `Access Control (IAM)`
+- `Subscription` > `Access Control (IAM)`
 - `Add role assignment`
   - `Owner` role
   - Leave Assign access to selection as `Azure AD user, group, or service principal`
