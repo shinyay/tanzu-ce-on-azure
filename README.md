@@ -84,11 +84,15 @@ Confirm your Tenant ID
 - [Tenant ID](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview)
   - `Azure Active Directory` > `Your Azure Org` > `Properties` > `Tenant ID`
 
-Regisger Application
+Regisger Application and 
 
 - `Azure Active Directory` > `App registrations` > `New registration`
 
 Enter a display name for the app, such as `shinyay-tce`
+
+Record its Application (client) ID value, which is a GUID.
+
+- [Application ID](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)
 
 ## References
 
