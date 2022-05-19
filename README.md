@@ -101,8 +101,9 @@ Record Subscriotion ID
 
 |ID|Command|
 |--|-------|
-|Tenant ID|az account list\|jq -r '.[].tenantId'|
-|Subscription ID|az account list\|jq -r '.[].id'|
+|Tenant ID|az account list \| jq -r '.[].tenantId'|
+|Subscription ID|az account list \| jq -r '.[].id'|
+|Client ID|az ad app list --display-name shinyay-tce --only-show-errors \| jq -r '.[].appId'|
 
 Assign a Role
 
