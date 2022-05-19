@@ -160,6 +160,7 @@ echo "AZURE_TENANT_ID: $AZURE_TENANT_ID"
 echo "AZURE_CLIENT_ID: $AZURE_CLIENT_ID"
 echo "AZURE_CLIENT_SECRET: $AZURE_CLIENT_SECRET"
 echo "AZURE_SUBSCRIPTION_ID: $AZURE_SUBSCRIPTION_ID"
+echo "SSH_PUBLICK_KEY: $(cat ~/.ssh/id_rsa.pub)"
 ```
 
 ### Start the Installer in your Browser
