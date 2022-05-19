@@ -126,6 +126,7 @@ To run management cluster VMs on Microsoft Azure, accept the license for their b
 set -x AZURE_TENANT_ID (az account list | jq -r '.[].tenantId')
 set -x AZURE_CLIENT_ID (az ad app list --display-name shinyay-tce --only-show-errors | jq -r '.[].appId')
 set -x AZURE_CLIENT_SECRET (az ad app credential reset --only-show-errors --id (az ad app list --display-name shinyay-tce --only-show-errors | jq -r '.[].appId') | jq -r '.password')
+set -x AZURE_SUBSCRIPTION_ID (az account list | jq -r '.[].id')
 ```
 
 ```shell
