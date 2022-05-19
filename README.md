@@ -122,7 +122,7 @@ Add a Client Secret for Application
 
 To run management cluster VMs on Microsoft Azure, accept the license for their base Kubernetes version and machine OS.
 
-```
+```shell
 set -x AZURE_TENANT_ID (az account list | jq -r '.[].tenantId')
 set -x AZURE_CLIENT_ID (az ad app list --display-name shinyay-tce --only-show-errors | jq -r '.[].appId')
 set -x AZURE_CLIENT_SECRET (az ad app credential reset --only-show-errors --id (az ad app list --display-name shinyay-tce --only-show-errors | jq -r '.[].appId') | jq -r '.password')
