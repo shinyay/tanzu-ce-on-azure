@@ -153,7 +153,7 @@ Add the private key to the SSH agent running on your machine
 ssh-add ~/.ssh/id_rsa
 ```
 
-### Deploy a Management Cluster to Azure ¶
+### Deploy a Management Cluster to Azure
 
 ```shell
 echo "AZURE_TENANT_ID: $AZURE_TENANT_ID"
