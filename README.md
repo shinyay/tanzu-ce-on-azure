@@ -204,7 +204,7 @@ tanzu cluster list --include-management-cluster
 Delete Management cluster
 
 ```shell
-tanzu management-cluster delete
+tanzu management-cluster delete MANAGEMENT_CLUSTER
 ```
 
 ## References
