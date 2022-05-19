@@ -155,6 +155,8 @@ ssh-add ~/.ssh/id_rsa
 
 ### Deploy a Management Cluster to Azure
 
+#### (In the case of configuration)
+
 ```shell
 tanzu management-cluster create shinyay-tce-mgmt --file config.yaml -v 6
 ```
@@ -190,6 +192,10 @@ tanzu management-cluster create --ui
 #### Step 5: Identity Management
 
 #### Step 6: OS Image
+
+### Clean up
+
+
 
 ## References
 
