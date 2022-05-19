@@ -104,6 +104,7 @@ Record Subscriotion ID
 |Tenant ID|az account list \| jq -r '.[].tenantId'|
 |Subscription ID|az account list \| jq -r '.[].id'|
 |Client ID|az ad app list --display-name shinyay-tce --only-show-errors \| jq -r '.[].appId'|
+|Client Secret Value|az ad app credential reset --only-show-errors --id (az ad app list --display-name shinyay-tce --only-show-errors \| jq -r '.[].appId') \| jq -r '.password'|
 
 Assign a Role
 
