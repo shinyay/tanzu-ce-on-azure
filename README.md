@@ -156,14 +156,20 @@ ssh-add ~/.ssh/id_rsa
 ### Deploy a Management Cluster to Azure
 
 ```shell
+tanzu management-cluster create shinyay-tce-mgmt --file config.yaml -v 6
+```
+
+### Start the Installer in your Browser
+
+Confirm the environment variables for the TCE Installation
+
+```shell
 echo "AZURE_TENANT_ID: $AZURE_TENANT_ID"
 echo "AZURE_CLIENT_ID: $AZURE_CLIENT_ID"
 echo "AZURE_CLIENT_SECRET: $AZURE_CLIENT_SECRET"
 echo "AZURE_SUBSCRIPTION_ID: $AZURE_SUBSCRIPTION_ID"
 echo "SSH_PUBLICK_KEY: $(cat ~/.ssh/id_rsa.pub)"
 ```
-
-### Start the Installer in your Browser
 
 ```shell
 tanzu management-cluster create --ui
