@@ -136,7 +136,7 @@ az login --service-principal --username $AZURE_CLIENT_ID --password $AZURE_CLIEN
 Accept the license for **Kubernetes version 1.21 and the machine OS, Ubuntu 20.04**
 
 ```shell
-az vm image terms accept --publisher vmware-inc --offer tkg-capi --plan k8s-1dot21dot5-ubuntu-2004 --subscription AZURE_SUBSCRIPTION_ID
+az vm image terms accept --publisher vmware-inc --offer tkg-capi --plan k8s-1dot21dot5-ubuntu-2004 --subscription $AZURE_SUBSCRIPTION_ID
 ```
 
 ### Create an SSH Key Pair
