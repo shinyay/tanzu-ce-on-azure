@@ -102,6 +102,7 @@ Record Subscriotion ID
 |ID|Command|
 |--|-------|
 |Tenant ID|az account list\|jq -r '.[].tenantId'|
+|Subscription ID|az account list\|jq -r '.[].id'|
 
 Assign a Role
 
