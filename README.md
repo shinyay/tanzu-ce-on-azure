@@ -84,7 +84,7 @@ Confirm your Tenant ID
 - [Tenant ID](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview)
   - `Azure Active Directory` > `Your Azure Org` > `Properties` > `Tenant ID`
 
-Regisger Application and 
+Regisger Application
 
 - `Azure Active Directory` > `App registrations` > `New registration`
 
@@ -97,6 +97,11 @@ Record its Application (client) ID value, which is a GUID.
 Record Subscriotion ID
 
 - [Subscription ID](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+
+
+|ID|Command|
+|--|-------|
+|Tenant ID|az account list\|jq -r '.[].tenantId'|
 
 Assign a Role
 
