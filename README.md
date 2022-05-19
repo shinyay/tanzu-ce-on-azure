@@ -201,6 +201,10 @@ List clusters
 tanzu cluster list --include-management-cluster
 ```
 
+```shell
+tanzu management-cluster delete
+```
+
 ## References
 
 ## Licence
