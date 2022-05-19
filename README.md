@@ -195,7 +195,11 @@ tanzu management-cluster create --ui
 
 ### Clean up
 
+List clusters
 
+```shell
+tanzu cluster list --include-management-cluster
+```
 
 ## References
 
