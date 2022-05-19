@@ -171,6 +171,8 @@ echo "AZURE_SUBSCRIPTION_ID: $AZURE_SUBSCRIPTION_ID"
 echo "SSH_PUBLICK_KEY: $(cat ~/.ssh/id_rsa.pub)"
 ```
 
+Run the installation ui
+
 ```shell
 tanzu management-cluster create --ui
 ```
