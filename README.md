@@ -155,6 +155,13 @@ ssh-add ~/.ssh/id_rsa
 
 ### Deploy a Management Cluster to Azure ¶
 
+```shell
+echo "AZURE_TENANT_ID: $AZURE_TENANT_ID"
+echo "AZURE_CLIENT_ID: $AZURE_CLIENT_ID"
+echo "AZURE_CLIENT_SECRET: $AZURE_CLIENT_SECRET"
+echo "AZURE_SUBSCRIPTION_ID: $AZURE_SUBSCRIPTION_ID"
+```
+
 ### Start the Installer in your Browser
 
 ```shell
