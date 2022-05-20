@@ -31,6 +31,8 @@ Tanzu Community Edition is a fully-featured, easy to manage, Kubernetes platform
 
 Download the binary
 
+- [release](https://github.com/vmware-tanzu/community-edition/releases/)
+
 ```shell
 curl -LO https://github.com/vmware-tanzu/community-edition/releases/download/v0.12.0/tce-darwin-amd64-v0.12.0.tar.gz
 ```
